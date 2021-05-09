@@ -35,7 +35,15 @@ public class AddressBook
 	{
 		System.out.println("Welcome to Address Book");
 		AddressBook snehal = new AddressBook();
+		AddressBook rushi = new AddressBook();
+		
 		snehal.setDetails();
+		System.out.println();
+		rushi.setDetails();
+		
+		
 		snehal.showDetails();
+		System.out.println();
+		rushi.showDetails();
 	}
 }
